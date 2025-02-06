@@ -1,5 +1,5 @@
 .DS_Store
-.vscode
+.vscode/
 authentication.js
 node_modules
 notes/
