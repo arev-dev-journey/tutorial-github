@@ -1,10 +1,20 @@
+# Lesson 1: Git Basics
+
+# Lesson 2: GitHub Basics
+
+# Lesson 3: GitHub Entities
+
+# Lesson 4: GitHub Markdown
+
+# Lesson 5: GitHub Desktop
+
+# Lesson 6: Maintain GitHub Repositories
+
+# Lesson 7: Manage GitHub Repositories
+
+# Lesson 8: Manage GitHub Issues
+
 # Lesson 9: Master GitHub Issues
-
-
-
-
-
-
 
 # Lesson 13: Manage GitHub Notifications
 ---
