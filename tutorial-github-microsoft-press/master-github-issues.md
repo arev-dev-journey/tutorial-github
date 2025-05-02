@@ -9,24 +9,51 @@
 ## Compare Git and GitHub
 
 # Lesson 2: GitHub Basics
+---
+## Describe a Git repository
+
+## Describe a commit
+
+## Describe branching
+
+## Define a remote
+
+## Describe the GitHub flow
 
 # Lesson 3: GitHub Entities
+---
+## Describe the different GitHub acounts
+
+## Describe GitHub's products for personal accounts
+
+## Describe GitHub's products for organization accounts
+
+## Describe user profile features
+
+## Describe GitHub enterprise's deployment options
 
 # Lesson 4: GitHub Markdown
+---
+## Describe markdown
 
 # Lesson 5: GitHub Desktop
+---
 
 # Lesson 6: Maintain GitHub Repositories
+---
 
 # Lesson 7: Manage GitHub Repositories
+---
 
 # Lesson 8: Manage GitHub Issues
+---
 
 # Lesson 9: Master GitHub Issues
+---
 
 # Lesson 13: Manage GitHub Notifications
 ---
-## Explain ho to subscribe to a notification thread
+## Explain how to subscribe to a notification thread
 
 ## Describe how to find threads where you are
 - Mentioned
