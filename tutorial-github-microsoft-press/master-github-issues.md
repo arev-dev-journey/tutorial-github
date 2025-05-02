@@ -1,4 +1,12 @@
 # Lesson 1: Git Basics
+---
+## Describe version control and distributed version control
+
+## Describe Git
+
+## Describe GitHub
+
+## Compare Git and GitHub
 
 # Lesson 2: GitHub Basics
 
@@ -21,14 +29,14 @@
 ## Explain ho to subscribe to a notification thread
 
 ## Describe how to find threads where you are
--- Mentioned
+- Mentioned
 
 ## Identify the notification filtering options
--- Based on various criteria
+- Based on various criteria
 
 ## Explain the different notification configuration options
--- Participating and @mentions, All Activity, Ignore, Custom
--- GitHub settings => Notifications => 
+- Participating and @mentions, All Activity, Ignore, Custom
+- GitHub settings => Notifications => 
 
 # Lesson 14: Use Gists, Wikis, and GitHub Pages
 ## Explain how to create a GitHub gist
@@ -40,8 +48,8 @@
 ## Describe how to create, edit, and delete wiki pages
 
 ## Explain the visibility of wiki pages
--- Public
--- Private
+- Public
+- Private
 ## Describe GitHub Pages
 
 # Lesson 15: Implement GitHub Actions
