@@ -13,42 +13,86 @@
 ## Compare Git and GitHub
 - Git is distributed system for handling version control, 100% free and open-source
 - GitHub is platform that enhances Git with collaboration features
-- Propriety, closed-source software 
+- Proprietary, closed-source software 
 - Free open source software (GitHub CLI)
 # Lesson 2: GitHub Basics
 ---
 ## Describe a Git repository
-
+- A repo is a storage space for project files and version history
+- Supports collaboration by tracking every text change
+- 3 repo visibilities: public, internal, private
 ## Describe a commit
-
+- A commit is a snapshot of your project at a specific point in time
+- Includes a message describing what has changed and why
+- Commits help with tracking history, enabling devs to roll back in time
+- Every commit has a unique hash to track specific changes
+- Standard is to use present tense
 ## Describe branching
-
+- Allow developers to work on different features, bug fixes, or experiments independently from the main codebase
+- Default branch is called main or master
+- Create a new branch to isolate changes and prevent overwrites
+- Helps avoid disruption in the main branch while allowing expermimentation
 ## Define a remote
-
+- A remote is your version of your project hosted on GitHub
+- Local repo is your copy on your machine, and remotes help synchronize with other team members
+- **origin**: the default name for your GitHub remote when you clone a repo
+- **upstream**: Used when your repository is a fork. It refers to the original repo from which your fork was made
+- Common operations, git push, git pull, best practice; allows pull before you push
+- Add a remote repo, git remote add https://github.com/user-name/repo.git
 ## Describe the GitHub flow
-
+- A lightweight, branch-based workflow to streamline collaboration
+- Key steps: Create a branch, Commit, changes, Open a pull request (PR), team members can review and discuss PR
+- After approval, the branch is merged into the main branch
+- The main branch is ready for deployment
 # Lesson 3: GitHub Entities
 ---
 ## Describe the different GitHub acounts
-
+- **Personal Accounts**: Individual users, free and paid plans, access to public and private repos
+- **Organizations**: Teams and companies, Shared account by a separate GitHub entity, centralized management, advanced security features, billing and invoicing
 ## Describe GitHub's products for personal accounts
-
+- **GitHub Free**: Public repos, limited private repos, basic collab tools
+- **GitHub Pro**: Unlimited private repos, advanced collab tools, code review features
+- **GitHub Team**: All feats of pro, plus team management tools and organization insights
 ## Describe GitHub's products for organization accounts
-
+- **GitHub Team**: Same feats as personal plan, plus organization-wide management
+- **GitHub Enterprise Cloud**: Advanced security and compliance, self-hosted runners, dedicated support
+- **GitHub Enterprise Server**: On-premises deployment, full control over data and infrastructure
 ## Describe user profile features
-
+- **Profile picture and bio**: Personalize your profile
+- **Pinned Repositories**: Showcase your best work
+- **Contributions graph**: Visualize your activity
+- **Achievements**: Highlight your accomplishments
 ## Describe GitHub enterprise's deployment options
-
+- **GitHub Enterprise** is the overall product name
+- **GitHub Enterprise Cloud**: Hosted on GitHub's infrastructure, easy setup and maintanence, Called GHEC
+- **GitHub Enterprise Server**: Deployed on your own servers, full control over data and security, Called GHES, you can deploy in a cloud
 # Lesson 4: GitHub Markdown
 ---
 ## Describe markdown
-
+- Lightweight markup language
+- Plain-text formatting syntax
+- Easy to read and write
+- Renders to HTML
+- Extends standard Markdown with a few key features thaht enhance its functionality with the GH ecosystem
+- Ex. @, autoconvert URLs and email addrs into links
+- `code` fencing
 ## Identify GitHub basic formatting syntax
-
+- **Headers**: #, ##, ###
+- **Emphasis**: _italics_, **bold**
+- **Lists**: -, 1
+- **Links**: [link text](URL)
+- **Images**: ![alt text](image URL)
 ## Identify the text formatting toolbar on issue and pull request comments
-
+- Located in **Issue** and **Pull Request**comment boxes
+- Provides visual buttons for common formatting
+- Can toggle between visual editor and Markdown code
 ## Explain where to find and use slash commands
-
+- Type / to trigger
+- Quick access to formatting and actions
+- Available in issues, PRs, and discussion
+- /label
+- /assign
+- /close
 # Lesson 5: GitHub Desktop
 ---
 ## Explain the difference between GitHub desktop and GitHub.com
