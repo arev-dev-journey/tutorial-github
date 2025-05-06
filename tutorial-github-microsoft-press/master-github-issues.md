@@ -1,13 +1,20 @@
 # Lesson 1: Git Basics
 ---
 ## Describe version control and distributed version control
-
+- Version control allows developers or collaborators to track changes to plain text or source code files
+- Facilitates collaboration in development
+- Distributed version control, (Git), everyone can have a copy or clone of a repo, Rapid and asynchronous
 ## Describe Git
-
+- Open source version control software, VCS, created by Linus Torvalds 
 ## Describe GitHub
-
+- Comprehensive hybrid cloud development platform, facilitating project management, issue tracking, code review, and CI/CD
+- Users enjoy a robust AI-enhanced SDLC
+- Access methods: REST API, web UI, mobile app, gh CLI
 ## Compare Git and GitHub
-
+- Git is distributed system for handling version control, 100% free and open-source
+- GitHub is platform that enhances Git with collaboration features
+- Propriety, closed-source software 
+- Free open source software (GitHub CLI)
 # Lesson 2: GitHub Basics
 ---
 ## Describe a Git repository
