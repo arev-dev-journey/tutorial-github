@@ -96,25 +96,68 @@
 # Lesson 5: GitHub Desktop
 ---
 ## Explain the difference between GitHub desktop and GitHub.com
-
+- **GitHub Desktop**: A local client for managing repos on your machine
+- FOSS, cross-platform desktop app written in TypeScript and Electron - Collaboration only
+- **GitHub.com**: Cloud-hosted platform for sharing repositories and collaborating with others
+- Proprietary with FOSS components, written in Ruby on Rails, TypeScript, Golang, React - Collaboration and development
 ## Describe the available features with GitHub desktop
-
+- **Branching and merging**: Visualize and merge branches easily
+- **Conflict resolution**: Resolve merge conflicts using simple UI
+- **Pull Requests and Issues**: Seamless integration with GitHub for creating and managing PRs
 ## Describe the available features with GitHub mobile
-
+- Closed-source, proprietary GitHub client available for iOS and Android
+- **Pull requests and issues**: Review, comment on, and merge pull requests, track and manage issues across projects
+- **Real-time notifications**: Stay updated with alerts for new commits, PR reviews, and more
+- **Repository browsing**: Navigate through files, code, and commit histories withing any repo
+- **Copilot chat**: Ask questions about code, generate solutions, and review suggestions from more than 100,000 repos
 ## Explain how to manage notifications through the GitHub Mobile app
-
+- **Customizable notifications**: Adjust preferences for specific repos or threads
+- **Inbox management**: Organize and act on notifications efficiently
+- **In-app actions**: Reply to comments or close issues directly from the notification center   
 # Lesson 6: Maintain GitHub Repositories
 ---
 ## Explain how to create a new repository
-
+- **On GitHub.com**:
+  - Click the + in the top-right corner and select **New Repository**
+  - Enter a repo name and description
+  - Choose between **public** (visible to everyone) **internal** (org access), or **private** (limited access)
+  - Optionally, inlcude README.md, .gitignore, or LICENSE
+  - Click **Create repository**
+- **Using GitHub CLI**:
+  - 'gh repo create [repo name]'
 ## Describe the components of a good README and the recommended repository files
-
+- Community health files available at the repo, org, and enterprise level
+- Can be centralized at the org level using a .github repo
+- Enterprise admins can apply governance across all orgs
+- Repo-specific files override org-level defaults
+- No centralized health files for personal user accounts; managed per repo
+- **Project title and description**: Clearly explain what the project about
+- **Installation instructions**: Guide users on how to set up and run the project
+- **Usage examples**: Demonstrate how to use the project with code snippets or screenshots
+- **Contributing guidelines**: Explain how others can contribute to the project
+- **License information**: Specify the open-source license used
 ## Explain basic repository navigation
-
+- Tab structure - Code - Issues - PR - Actions - Projects - Wiki - Security - Insights - Settings
 ## Describe repository templates
-
+- Pre-configured repos that provide a starting point for new projects
+- Saves time by providing a structure for new projects
+- Ensures consistency across projects
+- Includes essential files like authorized repo metadata files and a solid README.md
+- Creating and using
+  - Create a template repo and mark it as template
+  - When creating a new repo, select the template from the list
 ## Describe the different features to maintaining a repository
-
+- **Managing issues and PRs**:
+  - Review, comment, label, assign, and merge/close issues and PRs
+- **Updating Project Boards and Milestones**:
+  - Use project boards to visually track and manage tasks
+  - Set milestones to organize work into phases or releases
+- **Keeping the repo current**:
+  - make regular commits
+  - Merge conflicts from collaborators
+  - Resolve conflicts when they occur
+- **Archiving or deleting**:
+  - Archive repos that are no longer actively deployed but need to be preserved
 # Lesson 7: Manage GitHub Repositories
 ---
 ## Describe how to clone a repository
