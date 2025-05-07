@@ -124,7 +124,7 @@
   - Optionally, inlcude README.md, .gitignore, or LICENSE
   - Click **Create repository**
 - **Using GitHub CLI**:
-  - 'gh repo create [repo name]'
+  - `gh repo create [repo name]`
 ## Describe the components of a good README and the recommended repository files
 - Community health files available at the repo, org, and enterprise level
 - Can be centralized at the org level using a .github repo
