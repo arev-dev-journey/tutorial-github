@@ -1,4 +1,4 @@
-# Domain 2: Working with GitHub Repositories
+# Domain 2: Working with GitHub Repositories (8%)
 ---
 # Lesson 6: Maintain GitHub Repositories
 ---
