@@ -115,4 +115,4 @@
 ## Explain how to manage notifications through the GitHub Mobile app
 - **Customizable notifications**: Adjust preferences for specific repos or threads
 - **Inbox management**: Organize and act on notifications efficiently
-- **In-app actions**: Reply to comments or close issues directly from the notification center   
+- **In-app actions**: Reply to comments or close issues directly from the notification center
