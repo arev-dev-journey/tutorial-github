@@ -47,14 +47,27 @@
 # Lesson 7: Manage GitHub Repositories
 ---
 ## Describe how to clone a repository
-
+- Click code tab and under local, clone with HTTPS, SSH, GH CLI
 ## Describe how to create a new branch
-
+- Click the main branch tab
+- `git branch <branch-name>`
+- `git checkout -b <branch-name>`
 ## Explain how to add files to a repository
-
+- Create a new file, stage, commit, push
 ## Explain how to save a repository with stars
-
+- Starring a repo on GitHub is a way to:
+  - Bookmark repos you find interesting or helpful
+  - Let the repo owner know that their project is appreciated
+  - `gh repo star <repo>`
 ## Explain feature previews
-
+- **Alpha**: Product or feature under active development
+  - No SLAs or tech support
+- **Beta**: Product or feature is ready for wider distribution
+  - Public or private
+  - No SLAs or tech support
+- **General availability**: Product or feature is fully tested and available publicly
+  - SLA and support
 ## Identify how to view repository insights
-
+- Insights help repo owners and contributers understand the health and activity of a project
+- Insights are available directly in the repo interface
+- Include metrics such as traffic, commits, code frequency, and more
